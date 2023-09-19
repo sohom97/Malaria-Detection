@@ -8,8 +8,8 @@ The data is collected from an authorized portal and the main objective is to des
 
 For training of the model you need to run the train.py by passing the path for infected and uninfected cell images.
 
-python3 train.py -i {path of infected malaria cell images} -u {path of uninfected malaria cell images}
+```python3 train.py -i {path of infected malaria cell images} -u {path of uninfected malaria cell images}```
 
 To evaluate the performance of the model you need to have the weight files of the model saved in tmp/modelchkpt/ folder. Run this command:
 
-python3 evaluate.py
+```python3 evaluate.py```
